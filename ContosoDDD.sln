@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoDDD.Dominio.Bibliote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoDDD.Dominio.Servicos", "ContosoDDD.Dominio.Servicos\ContosoDDD.Dominio.Servicos.csproj", "{1780FC37-BB1F-4346-B00E-AA44FF49C831}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoDDD.Aplicacao", "ContosoDDD.Aplicacao\ContosoDDD.Aplicacao.csproj", "{08245A55-472D-461D-9ED2-66DA189F969F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoDDD.Aplicacao.DTO", "ContosoDDD.Aplicacao.DTO\ContosoDDD.Aplicacao.DTO.csproj", "{65441229-B433-453D-BEDE-680B4D0F1AE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{1780FC37-BB1F-4346-B00E-AA44FF49C831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1780FC37-BB1F-4346-B00E-AA44FF49C831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1780FC37-BB1F-4346-B00E-AA44FF49C831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08245A55-472D-461D-9ED2-66DA189F969F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08245A55-472D-461D-9ED2-66DA189F969F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08245A55-472D-461D-9ED2-66DA189F969F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08245A55-472D-461D-9ED2-66DA189F969F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65441229-B433-453D-BEDE-680B4D0F1AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65441229-B433-453D-BEDE-680B4D0F1AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65441229-B433-453D-BEDE-680B4D0F1AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65441229-B433-453D-BEDE-680B4D0F1AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +62,8 @@ Global
 		{76A8EB09-EAB4-499F-8DEF-C70AEAC0200E} = {983AA0E0-C97F-4669-948A-5C75C2029995}
 		{9C2286D5-0939-4C50-97AE-0F0DB5B7DDE1} = {983AA0E0-C97F-4669-948A-5C75C2029995}
 		{1780FC37-BB1F-4346-B00E-AA44FF49C831} = {983AA0E0-C97F-4669-948A-5C75C2029995}
+		{08245A55-472D-461D-9ED2-66DA189F969F} = {70DDDEC2-65A0-464F-B91A-23433E9162DE}
+		{65441229-B433-453D-BEDE-680B4D0F1AE2} = {70DDDEC2-65A0-464F-B91A-23433E9162DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B53F0E4B-72FE-46FD-957A-662B7AD391EF}
