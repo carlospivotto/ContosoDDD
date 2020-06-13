@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Autofac;
 using ContosoDDD.Infraestrutura.Persistencia;
+using ContosoDDD.Infraestrutura.Transversal.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +29,11 @@ namespace ContosoDDD.MVC
         {
             services.AddDbContext<ContosoDbContext>(options => options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=ContosoDDD;Trusted_Connection = True;"));
             services.AddControllersWithViews();
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new IoCModulo());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
