@@ -31,7 +31,7 @@ namespace ContosoDDD.Dominio.Servicos
 
         public void Dispose()
         {
-            _repositorio.Dispose()
+            _repositorio.Dispose();
         }
 
         public void Excluir(T obj)
