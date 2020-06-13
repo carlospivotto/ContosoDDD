@@ -11,8 +11,7 @@ namespace ContosoDDD.Dominio.Entidade
         public string Email { get; set; }
         public DateTime DataMatricula { get; set; }
         public DateTime UltimoAcesso { get; set; }
-        public bool Ativo { get; }
-
+      
         public ICollection<Matricula> Matriculas { get; set; }
 
         public bool AlunoAtivo()
