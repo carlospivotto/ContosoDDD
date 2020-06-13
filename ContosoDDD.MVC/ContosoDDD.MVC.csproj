@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -18,7 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContosoDDD.Dominio\ContosoDDD.Dominio.csproj" />
+    <ProjectReference Include="..\ContosoDDD.Aplicacao\ContosoDDD.Aplicacao.csproj" />
+    <ProjectReference Include="..\ContosoDDD.Infraestrutura.Persistencia\ContosoDDD.Infraestrutura.Persistencia.csproj" />
   </ItemGroup>
 
 </Project>

@@ -8,6 +8,8 @@ namespace ContosoDDD.Infraestrutura.Persistencia
 {
     public class ContosoDbContext : DbContext
     {
+        public ContosoDbContext() { }
+
         public ContosoDbContext(DbContextOptions<ContosoDbContext> options) : base(options) { }
 
         public DbSet<Aluno> Alunos { get; set; }
